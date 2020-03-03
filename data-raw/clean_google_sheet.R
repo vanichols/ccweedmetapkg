@@ -33,7 +33,15 @@ ccweeddat <-
          cc_termMETH = ifelse(cc_termMETH == "winterkill", "winter kill", cc_termMETH),
          cc_termMETH = ifelse(cc_termMETH == "chopping", "mowing", cc_termMETH)) %>%
   clean_names() %>%
-  select(-entered_by, -loc_state, -notes, -map, -mat)
+  select(-entered_by, -loc_state, -notes, -map, -mat,
+         -cc_p_date, -cc_tillage, -cc_term_date, -crop_p_date) %>%
+  rename(pH = p_h,
+         cc_wden = ccden,
+         ctl_wden = ctlden,
+         cc_wbio = ccbio,
+         ctl_wbio = ctlbio,
+         cc_bm_kgha = cc_bio_kgha)
 
 ccweeddat
 use_data(ccweeddat, overwrite = T)
+

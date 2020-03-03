@@ -9,10 +9,10 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of ccweedmetapkg is to provide easy access (for R users) to
-data associated with the the publication XX. This dataset has been
-published using Iowa State University’s DataShare program and can also
-be accessed via [this]() link. Because the dataset is published
+The goal of **ccweedmetapkg** is to provide easy access (for R users) to
+data associated with the the publication *in progress*. This dataset
+*will be* published using Iowa State University’s DataShare program and
+can also be accessed via [this]() link. Because the dataset is published
 elsewhere, readers/users are directed to the DataShare website for
 detailed data descriptions.
 
