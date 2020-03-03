@@ -1,0 +1,20 @@
+Package: ccweedmetapkg
+Title: Provides Easy Access to 2020 Cover Crop Weed Meta-analysis Project Data
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Gina",
+             family = "Nichols",
+             role = c("aut", "cre"),
+             email = "virginia.nichols@gmail.com",
+             comment = "0000-0003-1850-8243"))
+Description: This package provides easy access to data collected as part of a Practical Farmers of Iowa project. Additionally, analyses are available as functions!
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Depends: 
+    R (>= 3.2.1)
+Imports: 
+  
